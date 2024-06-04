@@ -12,7 +12,7 @@ Bu proje, nesne tespiti alanında geniş bir kullanım alanına sahiptir ve kull
 
 ## Modeller
 ### 1. Silah Tespiti Modeli
-Özel bir silah veri seti ile eğitilmiştir ve görüntülerde silah tespiti yapar.   [Bu linkten Tabanca Modeli Eğitimi Reposuna gidebilirsiniz](https://github.com/Samet-Berkay-Taskin/YOLOv8-Training-with-custom-data-Pistol-Detection-)
+Özel bir silah veri seti ile eğitilmiştir ve görüntülerde silah tespiti yapar.   [Nasıl Eğitildiğini Merak Ediyorsanız Bu Linkten Tabanca Modeli Eğitimi Reposuna Gidebilirsiniz](https://github.com/Samet-Berkay-Taskin/YOLOv8-Training-with-custom-data-Pistol-Detection-)
 
 ### 2. Yangın Tespiti Modeli
 Özel bir alev ve yangın veri seti ile eğitilmiştir ve yangın tespiti yapar.
