@@ -1,12 +1,14 @@
 # YoloV8 ile Nesne Tespiti Api'si
 
-Bu proje, YoloV8 modelini kullanarak özel veri setleriyle eğitilmiş dört farklı nesne tespit modeli içermektedir. Bu modeller şunlardır:
-1. Silah tespiti
-2. Yangın tespiti
-3. Kedi ve köpek tespiti
-4. YoloV8'in varsayılan modeli (Ultralytics tarafından eğitilmiş)
+Bu proje, backend ve frontend olmak üzere iki aşamadan oluşmaktadır. Bu repository, projenin backend kısmını içermektedir. Ancak projeyi tamamlayabilmek için frontend kısmını da kurmanız gerekmektedir. Frontend kodlarına [BU LİNKTEN](https://github.com/kullanici/proje)
+ ulaşabilir ve projeyi tamamlayabilirsiniz.
 
-Proje, Python'da Flask API kullanarak bu modelleri servis eden bir backend ve bu backend'i kullanarak video ve fotoğraflarda nesne tespiti yapan bir React frontend içerir. Kullanıcılar video ve fotoğraflar üzerinde tespit yapabilir, hatta YouTube linki vererek videoyu indirip analiz ettirebilir. Kullanıcılar ayrıca hangi modeli kullanmak istediklerini seçebilirler.
+Projede, YOLOv8 modeli kullanılarak geliştirilmiş bir nesne tespit uygulaması bulunmaktadır. Bu uygulama, belirli nesneleri tanıyan dört farklı model içermektedir. Backend kısmı, Flask API kullanılarak Python ile geliştirilmiştir. Bu backend, kullanıcının yüklediği videoları ve fotoğrafları işleyebilir ve seçilen modelle nesne tespiti yapabilir. Ayrıca, YouTube'dan video linki alıp, videoyu indirip ve bu videodaki nesneleri de tespit edebilir.
+
+Frontend kısmı ise React ile geliştirilmiştir. Kullanıcılar, web arayüzü üzerinden videoları ve fotoğrafları yükleyebilir, YouTube'dan video linki verebilir ve tespit sonuçlarını görüntüleyebilir veya indirebilirler. Ayrıca, hangi modelin kullanılacağını seçme seçeneği bulunmaktadır.
+
+Bu proje, nesne tespiti alanında geniş bir kullanım alanına sahiptir ve kullanıcıların çeşitli ihtiyaçlarını karşılamak için esnek bir yapıya sahiptir. Özel veri setleriyle eğitilmiş modellerle özelleştirilmiş tespitler yapılabilir veya genel amaçlı bir model tercih edilebilir.
+
 
 ## Modeller
 ### 1. Silah Tespiti Modeli
@@ -43,11 +45,12 @@ python main.py
 
 ## Kullanım
 
-Flask API'yi çalıştırdıktan sonra, frontend tarafı (React uygulaması) aracılığıyla aşağıdaki işlemleri yapabilirsiniz:
+Flask API'yi çalıştırdıktan sonra, frontend tarafını kurup (React uygulaması) aşağıdaki işlemleri yapabilirsiniz:
 
 1. **Video ve Fotoğraf Yükleme:** Kullanıcılar video ve fotoğraf yükleyerek nesne tespiti yapabilirler.
 2. **YouTube Video Tespiti:** Kullanıcılar YouTube video linki sağlayarak videoyu indirip analiz ettirebilirler.
 3. **Model Seçimi:** Kullanıcılar, tespit yapmak istedikleri modeli seçebilirler (silah, yangın, kedi ve köpek, varsayılan YoloV8 modeli).
 4. **Sonuçları Görüntüleme ve İndirme:** Tespit yapılmış video ve fotoğrafları görüntüleyebilir ve indirebilirler.
+
 
 
