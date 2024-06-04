@@ -1,4 +1,4 @@
-# YoloV8 ile Nesne Tespiti Projesi
+# YoloV8 ile Nesne Tespiti Api'si
 
 Bu proje, YoloV8 modelini kullanarak özel veri setleriyle eğitilmiş dört farklı nesne tespit modeli içermektedir. Bu modeller şunlardır:
 1. Silah tespiti
