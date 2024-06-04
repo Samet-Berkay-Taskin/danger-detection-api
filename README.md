@@ -28,13 +28,26 @@ Projenin Python backend kısmını çalıştırmak için aşağıdaki adımları
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/kullanici-adi/proje-adi.git
-cd proje-adi
+git clone https://github.com/Samet-Berkay-Taskin/danger-detection-api.git
 ```
 
 ### 2. Gereksinimleri Yükleyin
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3.Flask API'yi (Backend) Çalıştırın
+```bash
+python main.py
+```
+
+## Kullanım
+
+Flask API'yi çalıştırdıktan sonra, frontend tarafı (React uygulaması) aracılığıyla aşağıdaki işlemleri yapabilirsiniz:
+
+1. **Video ve Fotoğraf Yükleme:** Kullanıcılar video ve fotoğraf yükleyerek nesne tespiti yapabilirler.
+2. **YouTube Video Tespiti:** Kullanıcılar YouTube video linki sağlayarak videoyu indirip analiz ettirebilirler.
+3. **Model Seçimi:** Kullanıcılar, tespit yapmak istedikleri modeli seçebilirler (silah, yangın, kedi ve köpek, varsayılan YoloV8 modeli).
+4. **Sonuçları Görüntüleme ve İndirme:** Tespit yapılmış video ve fotoğrafları görüntüleyebilir ve indirebilirler.
 
 
