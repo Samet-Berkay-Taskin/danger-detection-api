@@ -1,6 +1,6 @@
 # YoloV8 ile Nesne Tespiti Api'si
 
-Bu proje, backend ve frontend olmak üzere iki aşamadan oluşmaktadır. Bu repository, projenin backend kısmını içermektedir. Ancak projeyi tamamlayabilmek için frontend kısmını da kurmanız gerekmektedir. Frontend kodlarına [BU LİNKTEN](https://github.com/kullanici/proje)
+Bu proje, backend ve frontend olmak üzere iki aşamadan oluşmaktadır. Bu repository, projenin backend kısmını içermektedir. Ancak projeyi tamamlayabilmek için frontend kısmını da kurmanız gerekmektedir. Frontend kodlarına [BU LİNKTEN](https://github.com/Samet-Berkay-Taskin/danger-detection-react-app)
  ulaşabilir ve projeyi tamamlayabilirsiniz.
 
 Projede, YOLOv8 modeli kullanılarak geliştirilmiş bir nesne tespit uygulaması bulunmaktadır. Bu uygulama, belirli nesneleri tanıyan dört farklı model içermektedir. Backend kısmı, Flask API kullanılarak Python ile geliştirilmiştir. Bu backend, kullanıcının yüklediği videoları ve fotoğrafları işleyebilir ve seçilen modelle nesne tespiti yapabilir. Ayrıca, YouTube'dan video linki alıp, videoyu indirip ve bu videodaki nesneleri de tespit edebilir.
