@@ -44,7 +44,6 @@ python main.py
 ```
 
 ## Kullanım
-
 Flask API'yi çalıştırdıktan sonra, frontend tarafını kurup (React uygulaması) aşağıdaki işlemleri yapabilirsiniz:
 
 1. **Video ve Fotoğraf Yükleme:** Kullanıcılar video ve fotoğraf yükleyerek nesne tespiti yapabilirler.
